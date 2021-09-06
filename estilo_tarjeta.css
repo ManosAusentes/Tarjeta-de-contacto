@@ -1,0 +1,54 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial,sans-serif;
+}
+#titulo {
+	background-color: #b1c8ff;
+	text-align: center;
+	padding: 40px;
+}
+#bloque {
+	display: flex;
+	margin: 10px;
+	position: relative;
+	top: 10px;
+	left: 200px;
+}
+.cuerpo {
+	display: flex;
+	width: 300px;
+	height: 400px;
+	text-align: center;
+	border: 2px solid #000;
+	border-radius: 10px;
+	margin: 33px;
+	box-shadow: 3px 5px 10px 0 #000;
+}
+.tarjeta {
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+.tarjeta__nombre {
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	color: #dd0;
+}
+.tarjeta__descripcion {
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
+.tarjeta__link img {
+	align-content: center;
+	width: 170px;
+}
+.tarjeta__link:hover{
+	transform: translateY(-5px);
+}
